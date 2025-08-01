@@ -1,69 +1,127 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  
-  <title>Kevin Arigoni | Portfolio</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kevin Arigoni | Digital polyvalent : Web – Commerce – Management</title>
+  <meta name="description" content="Portfolio de Kevin Arigoni – Développeur web, chef de projet digital junior, technico-commercial et créateur de projets e-commerce. Polyvalent, créatif et opérationnel. Travaille sur ses propres projets et à la recherche d'un emploi salarié.">
+  <meta name="keywords" content="Kevin Arigoni, développeur web, chef de projet digital, commercial, e-commerce, WooCommerce, WordPress, technico-commercial, développeur, intégrateur web, Godot, Unity, portfolio professionnel">
+  <!-- Robots / Open Graph / Réseaux sociaux -->
+  <meta name="robots" content="index, follow">
+  <link rel="shortcut icon" href="favicon.ico">
+  <meta property="og:title" content="Kevin Arigoni – Portfolio professionnel" />
+  <meta property="og:description" content="Développeur web, chef de projet digital junior, technico-commercial et créateur de projets e-commerce. Polyvalent et opérationnel. En recherche active d’un emploi salarié." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://arigoni.github.io/" />
+  <meta property="og:image" content="https://arigoni.github.io/assets/banner-preview.png" />
+  <meta property="og:locale" content="fr_FR" />
+  <!-- CSS / Fontawesome -->
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/a62e0cc052.js" crossorigin="anonymous"></script>
+  <script defer src="script.js"></script>
 </head>
 
 <body>
   <div class="background-overlay"></div>
 
-  <nav class="navbar">
+  <nav class="navbar" id="navbar">
     <ul>
+      <li><a href="#home">Accueil</a></li>
       <li><a href="#about">À propos</a></li>
+      <li><a href="#skills">Compétences</a></li>
       <li><a href="#projects">Projets</a></li>
       <li><a href="#contact">Contact</a></li>
     </ul>
   </nav>
 
-  <header>
+  <header id="home">
     <h1>Kevin Arigoni</h1>
-    <p>Développeur Web | Créateur IA | E-commerce | Impression 3D | Disponible (Remote ou hybride)</p>
+    <p>Développeur web | Commercial | Chef de projet junior | Responsable | Technico-créatif polyvalent</p>
   </header>
 
   <main>
     <section id="about">
       <h2>✨ À propos</h2>
-      <p>Autodidacte passionné et polyvalent, je conçois, développe et lance des projets qui mêlent technologie, créativité et efficacité terrain. Mon profil hybride me permet de naviguer entre développement web, gestion de projet digital, commerce en ligne, création de contenus IA, et impression 3D.</p>
-      <p>J’ai lancé et développé plusieurs initiatives concrètes : un sexshop e-commerce (Fantas’me), une chaîne de vidéos virales propulsées par IA (Made by IA), ainsi qu’une ligne d’objets imprimés pour les amateurs de jeux de rôle (HeroCraft 3D).</p>
-      <p>En parallèle, je suis en veille active d’opportunités professionnelles dans les domaines suivants :</p>
-      <ul>
-        <li>💼 Chef de projet digital junior</li>
-        <li>💻 Développeur web ou intégrateur</li>
-        <li>🛍️ Directeur / Responsable boutique en ligne</li>
-        <li>🎮 Développeur de jeux 2D/3D (Godot / Unity)</li>
-        <li>📢 Commercial ou technico-commercial digital / IT</li>
+      <p><strong>Polyvalent, curieux et autonome</strong>, je construis ma carrière autour de 3 axes complémentaires : développement web, gestion de projet digital et le commerce.</p>
+      <p>J’ai une forte culture produit, une approche orientée utilisateur et j’aime autant coder qu’échanger avec un client ou piloter un projet.</p>
+      <p>Je cherche aujourd’hui à intégrer une structure dans un poste salarié qui me permet d’exploiter mon potentiel sur les volets :</p>
+      <ul class="skills-list">
+        <li>technique (développement, intégration, e-commerce)</li>
+        <li>relationnel (conseil, vente, accompagnement)</li>
+        <li>organisationnel (gestion, coordination, autonomie)</li>
+      </ul>
+      <p>Je développe également plusieurs projets personnels (vidéo, impression 3D, boutique en ligne), qui enrichissent ma pratique terrain et ma compréhension des enjeux concrets.</p>
+    </section>
+
+    <section id="skills">
+      <h2>🛠️ Compétences</h2>
+      <ul class="skills-list">
+        <li>Développement web : HTML5, CSS3, JavaScript, PHP, React, Vue.js, WordPress, Node.js, MySQL, MongoDB</li>
+        <li>E-commerce : SEO, automatisation, dropshipping, WooCommerce, Shopify</li>
+        <li>Jeux vidéo & 3D : Godot, Unity, Blender, SketchUp, Cura, impression 3D</li>
+        <li>Création de contenu : IA générative, TikTok/YouTube Shorts, montage (CapCut, OBS Studio)</li>
+        <li>Chef de projet digital : coordination, rédaction, stratégie, planification, suivi de projet</li>
+        <li>Commercial / technico-commercial : écoute client, démonstration, accompagnement, élaboration de devis</li>
+        <li>Responsable / Directeur : management d’équipe, gestion opérationnelle, animation de boutique e-commerce</li>
+      </ul>
+    </section>
+
+    <section id="interests">
+      <h2>🎯 Soft skills et Centres d’intérêt</h2>
+      <p><strong>Soft skills :</strong> autonomie, adaptabilité, esprit d’équipe, rigueur, curiosité</p>
+      <p><strong>Centres d'intérêt :</strong></p>
+      <ul class="skills-list">
+        <li>Impression 3D et fabrication numérique</li>
+        <li>Création de contenu IA et montage vidéo</li>
+        <li>Jeux de rôle et univers fantasy (HeroCraft 3D)</li>
+        <li>Veille tech et tendances digitales</li>
       </ul>
     </section>
 
     <section id="projects">
       <h2>🚀 Projets</h2>
       <div class="project">
-        <h3>Fantas’me – Boutique e-commerce</h3>
-        <p>Boutique Shopify spécialisée dans les produits pour adultes. Stack : SEO, visuels IA, automatisation logistique, SAV, gestion de contenu.</p>
+        <h3>Fantas’me – Boutique e-commerce sous WooCommerce</h3>
+        <p>Projet personnel de sexshop en ligne. Configuration WooCommerce, optimisation SEO, création de fiches produits, automatisation et tunnel d’achat.</p>
         <a href="https://fantasme.click" target="_blank">Voir le site</a>
       </div>
       <div class="project">
-        <h3>Made by IA – Vidéos virales</h3>
-        <p>Création de contenus courts TikTok/YouTube générés avec IA. Génération script, voix off, image, montage CapCut, test de viralité et rétention.</p>
-        <a href="#">Chaîne à venir</a>
+        <h3>Made by IA – Vidéos virales automatisées</h3>
+        <p>Projet de création de vidéos TikTok et YouTube Shorts par IA : génération de scripts, voix off, visuels, montage via CapCut. Tests de formats viraux et monétisation à venir.</p>
+        <a href="#">Chaîne en cours de lancement</a>
       </div>
       <div class="project">
-        <h3>HeroCraft 3D – Impression Fantasy</h3>
-        <p>Création de dés géants, figurines personnalisées et objets de jeux de rôle. Fichiers STL, modélisation, impression, shooting produit.</p>
-        <a href="#">Aperçu bientôt disponible</a>
+        <h3>HeroCraft 3D – Impression 3D pour jeux de rôle</h3>
+        <p>Création de dés, accessoires fantasy, figurines customisées pour le jeu de rôle. Impression FDM/SLA, modélisation avec l'IA, vente directe et mini boutique à venir.</p>
+        <a href="#">Bientôt en ligne</a>
       </div>
     </section>
 
     <section id="contact">
-      <h2>💼 Contact</h2>
-      <p>Email : <a href="mailto:kevin.arigoni@gmail.com">kevin.arigoni@gmail.com</a></p>
-      <p>GitHub : <a href="https://github.com/arigoni" target="_blank">github.com/arigoni</a></p>
-      <p>LinkedIn : <a href="https://linkedin.com/in/kevin-arigoni" target="_blank">linkedin.com/in/kevin-arigoni</a></p>
+      <h2>📬 Me contacter</h2>
+      <div class="contact-grid">
+        <div class="contact-item">
+          <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="Email">
+          <p><a href="mailto:arigoni.kevin@yahoo.fr">arigoni.kevin@yahoo.fr</a></p>
+        </div>
+        <div class="contact-item">
+          <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="Linkedin">
+          <p><a href="https://www.linkedin.com/in/kevin-arigoni" target="_blank">Linkedin</a></p>
+        </div>
+        <div class="contact-item">
+          <img src="https://cdn-icons-png.flaticon.com/512/733/733609.png" alt="GitHub">
+          <p><a href="https://github.com/arigoni" target="_blank">GitHub</a></p>
+        </div>
+        <div class="contact-item">
+          <img src="https://cdn-icons-png.flaticon.com/512/145/145802.png" alt="Facebook">
+          <p><a href="https://www.facebook.com/profile.php?id=100050100790571" target="_blank">Facebook</a></p>
+        </div>
+      </div>
+      <div class="btn-container">
+        <a class="btn-download" href="assets/Kevin_Arigoni_CV.pdf" target="_blank">⬇️ Télécharger mon CV</a>
+      </div>
     </section>
   </main>
 
