@@ -144,9 +144,15 @@ p {
   box-shadow: 0 10px 15px rgba(0, 0, 0, 0.4);
 }
 
-.project h3 {
-  color: #ffffff;
+#projects h3 {
+  color: #10b981; /* vert émeraude */
+  font-size: 1.4rem;
   margin-bottom: 0.5rem;
+}
+
+#projects h3:hover {
+  color: #6ee7b7;
+  transition: color 0.3s ease-in-out;
 }
 
 .project p {
