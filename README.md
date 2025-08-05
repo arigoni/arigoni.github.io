@@ -1,48 +1,57 @@
-# Portfolio – Kevin Arigoni
+Portfolio – Kevin Arigoni
 
-Bienvenue sur mon portfolio personnel et professionnel.  
-Ce site me permet de présenter mes projets, ma polyvalence et mes compétences, dans le but de développer ma visibilité et de décrocher un emploi ou des opportunités en lien avec mes projets actuels.
+Ce dépôt contient le code source du portfolio personnel et professionnel de Kevin Arigoni.
+L’objectif de ce site est double : faire connaître les projets entrepreneuriaux en cours (Fantas’me, Made by IA, HeroCraft 3D, Wardogs/Luminity) et présenter un profil complet aux recruteurs pour des postes de développeur/intégrateur web, technico‑commercial, directeur ou responsable, chef de projet digital junior ou webmaster.
+🌟 Ce que vous trouverez
+À propos
 
-## 👤 À propos
+Une présentation concise et aérée qui met en avant la polyvalence de Kevin — développement web, e‑commerce, management d’équipe, création numérique — et précise les domaines d’emploi ciblés.
+C’est l’entrée en matière pour les visiteurs qui découvrent son parcours et son ambition.
+Compétences
 
-Autodidacte passionné et polyvalent, j’évolue à la croisée du développement web, de la création numérique (IA / vidéo), de l’e-commerce et de l’impression 3D.
+Une liste structurée des compétences clés :
 
-Je conçois et réalise des projets concrets, en solo ou en collaboration :
-- 🛍️ Fantas’me – Boutique e-commerce (WooCommerce)
-- 🤖 Made by IA – Chaîne de vidéos virales générées avec IA
-- 🎲 HeroCraft 3D – Impression d’objets RPG / cosplay
+    Développement web : HTML/CSS, JavaScript, PHP, MySQL, React, Vue.js, Node.js, WordPress et WooCommerce.
 
-Je suis également à la recherche d'opportunités dans les domaines suivants :
-- Développement web (front-end / back-end)
-- Intégration web et UX
-- Technicien ou conseiller informatique
-- Commercial ou technico-commercial digital / IT
-- Chef de projet digital junior
-- Développeur jeux 2D/3D (Godot / Unity)
+    E‑commerce & marketing : SEO/SEA, marketing digital, gestion de boutique, prospection, négociation et devis.
 
-## 🚀 Technologies utilisées
+    Management & commerce : management d’équipe, gestion de projet, relation client, direction de magasin.
 
-- HTML / CSS / JavaScript
-- Vue.js, React, Node.js, PHP, MySQL
-- WordPress, WooCommerce, Shopify
-- SEO, CapCut, OBS, After Effects
-- Git / GitHub
-- Impression 3D : Cura, SketchUp, Blender
+    Création & 3D : IA générative, montage vidéo (CapCut, OBS), impression 3D FDM/SLA, modélisation (SketchUp, Blender), lithophanie.
 
-## 📂 Arborescence du dépôt
+    Soft skills : autonomie, adaptabilité, esprit d’équipe, rigueur, sens du service, capacité d’analyse, prise d’initiative et créativité.
 
-📁 arigoni.github.io/
-├── index.html → Page principale
-├── style.css → Design responsive + navbar + animations
-└── README.md → Ce fichier
+Projets
 
-## 🔗 Me contacter
+Chaque projet est présenté avec son objectif et les technologies utilisées :
+Projet	Description	Technologies
+Fantas’me	Sexshop en ligne sous WooCommerce. Création du concept, mise en place complète de la boutique (SEO, tunnel d’achat, fiches produits), négociation fournisseurs, logistique, service client et marketing.	WooCommerce, WordPress, PHP, SEO
+Made by IA	Chaîne de vidéos virales générées avec l’IA pour TikTok et YouTube. Scripts, montage, publication et analyse des performances.	IA générative, CapCut, réseaux sociaux
+HeroCraft 3D	Conception et impression 3D d’objets fantasy (dés, figurines, lithophanie). Modélisation assistée par IA, impression FDM/SLA et mini‑boutique en préparation.	Impression 3D, SketchUp, Blender
+Wardogs / Luminity	Création d’une guilde de jeu vidéo sous le pseudonyme xXBjornulfXx avec branding personnalisé. Gestion de communauté, organisation d’événements en ligne et développement d’identité visuelle.	Community management, branding
+Centres d’intérêt
 
-- ✉️ Email : arigoni.kevin@yahoo.fr  
-- 🔗 GitHub : [github.com/arigoni](https://github.com/arigoni)  
-- 💼 LinkedIn : [linkedin.com/in/kevin-arigoni](https://linkedin.com/in/kevin-arigoni)
+Quelques passions personnelles qui font écho au profil professionnel : jeux vidéo et réalité virtuelle, impression 3D, jeux de rôle, échecs, astronomie et animaux.
+Contact et CV
 
----
+Une section de contact moderne avec icônes cliquables :
+• Email – ouvre automatiquement votre messagerie via un lien mailto:.
+• Portfolio – redirige vers arigoni.github.io.
+• LinkedIn – profil professionnel complet.
+• GitHub – dépôts de code et projets.
+Un bouton permet de télécharger le CV au format PDF.
+Métadonnées et SEO
 
-🧭 Ce site est hébergé gratuitement via GitHub Pages : [https://arigoni.github.io](https://arigoni.github.io)  
-Merci pour votre visite !
+Le site intègre :
+• une balise meta description rédigée pour les recruteurs (« Polyvalent, créatif et opérationnel … »),
+• des keywords adaptés (développeur web, chef de projet digital, technico‑commercial, WooCommerce…),
+• et des balises Open Graph pour un aperçu optimal lors du partage (titre, description et image dédiée).
+🚀 Utilisation
+
+    Visualiser localement : clonez ce dépôt et ouvrez index.html dans un navigateur moderne. Tout est statique (HTML/CSS/JS), aucune dépendance externe n’est nécessaire.
+
+    Déployer sur GitHub Pages : poussez le contenu sur votre dépôt GitHub (par exemple username.github.io) et activez GitHub Pages dans les paramètres. Le site sera accessible publiquement.
+
+📄 Licence
+
+Ce projet est mis à disposition sans licence restrictive ; vous pouvez le consulter et l’adapter librement pour un usage personnel ou professionnel. Merci cependant de ne pas supprimer les mentions de crédit au concepteur.
