@@ -1,25 +1,18 @@
-document.addEventListener("DOMContentLoaded", () => {
-  const nav = document.getElementById("navbar");
-  const links = document.querySelectorAll(".navbar a");
+// Année automatique dans le footer
+document.addEventListener('DOMContentLoaded', () => {
+const y = document.getElementById('y');
+if (y) y.textContent = new Date().getFullYear();
+});
 
-  window.addEventListener("scroll", () => {
-    if (window.scrollY > 50) {
-      nav.classList.add("scrolled");
-    } else {
-      nav.classList.remove("scrolled");
-    }
 
-    let fromTop = window.scrollY + 100;
-    links.forEach(link => {
-      let section = document.querySelector(link.getAttribute("href"));
-      if (
-        section.offsetTop <= fromTop &&
-        section.offsetTop + section.offsetHeight > fromTop
-      ) {
-        link.classList.add("active");
-      } else {
-        link.classList.remove("active");
-      }
-    });
-  });
+// Scroll doux pour la navigation interne
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+anchor.addEventListener('click', function(e) {
+const id = this.getAttribute('href').slice(1);
+const target = document.getElementById(id);
+if (target) {
+e.preventDefault();
+target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
+});
 });
